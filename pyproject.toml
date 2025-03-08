@@ -1,0 +1,24 @@
+[project]
+name = "pdf-splitter"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "M0rtalPhe0nix",email = "momara909@gmail.com"}
+]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "pymupdf (>=1.25.3,<2.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+[tool.poetry.scripts]
+pdf-splitter = "pdf_splitter.bin.div_pdf:main"
+
+[tool.poetry]
+packages = [
+    { include = "pdf_splitter" }
+]
