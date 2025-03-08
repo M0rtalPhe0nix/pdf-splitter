@@ -1,6 +1,6 @@
 # Release History
 
-## [0.1.0] - 2024-01-XX
+## [0.1.0] - 2025-03-08
 
 ### Added
 - Initial release of PDF Splitter
