@@ -21,7 +21,7 @@ You can install the package using either of these two methods:
 ### Method 1: Direct Poetry Install
 
 ```bash
-git clone https://github.com/yourusername/pdf-splitter.git
+git clone https://github.com/M0rtalPhe0nix/pdf-splitter.git
 cd pdf-splitter
 poetry install
 ```
@@ -29,7 +29,7 @@ poetry install
 ### Method 2: Build and Install with pip
 
 ```bash
-git clone https://github.com/yourusername/pdf-splitter.git
+git clone https://github.com/M0rtalPhe0nix/pdf-splitter.git
 cd pdf-splitter
 poetry build
 pip install dist/*.whl
