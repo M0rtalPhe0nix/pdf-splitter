@@ -26,8 +26,8 @@ def split_pdf_by_toc(pdf_path, level=1):
     
     # Process each section
     for i in range(len(ranges)):
-        start_page = ranges[i] - 1  # PyMuPDF uses 0-based indexing
-        end_page = ranges[i+1] - 1 if i+1 < len(ranges) else pdf.page_count - 1
+        start_page = ranges[i]  # PyMuPDF uses 0-based indexing
+        end_page = ranges[i+1] if i+1 < len(ranges) else pdf.page_count - 1
         
         # Create a new PDF with the selected pages
         new_pdf = pymupdf.open()
